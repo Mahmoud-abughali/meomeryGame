@@ -1,4 +1,5 @@
 {
+  "hoempage":"https://Mahmoud-abughali.hithup.io/meomeryGame",
   "name": "meomrygame",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "perdeploy":"npm run bulid",
+    "deploy":"gh-pages -d bulid"
   },
   "dependencies": {
     "react": "^19.2.0",
