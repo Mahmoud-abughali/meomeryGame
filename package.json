@@ -1,5 +1,5 @@
 {
-  "hoempage":"https://Mahmoud-abughali.hithup.io/meomeryGame",
+  "homepage": "https://Mahmoud-abughali.github.io/meomrygame",
   "name": "meomrygame",
   "private": true,
   "version": "0.0.0",
@@ -9,22 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "perdeploy":"npm run bulid",
-    "deploy":"gh-pages -d bulid"
-  },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^9.39.1",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.5.0",
-    "vite": "^7.3.1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }
