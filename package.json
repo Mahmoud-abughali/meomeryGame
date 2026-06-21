@@ -1,6 +1,5 @@
 {
-  "homepage": "https://Mahmoud-abughali.github.io/meomrygame",
-  "name": "meomrygame",
+"homepage": "https://Mahmoud-abughali.github.io/meomeryGame"  "name": "meomrygame",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,5 +10,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
