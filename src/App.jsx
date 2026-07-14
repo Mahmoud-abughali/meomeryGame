@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card } from "./components/card";
+import Card from "./components/Card";
 import GameHeader from "./components/gameHeader";
 
 const cardValues = [
