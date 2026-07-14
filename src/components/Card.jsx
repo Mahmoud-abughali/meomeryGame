@@ -1,4 +1,4 @@
-export const Card = ({ card, onClick }) => {
+const Card = ({ card, onClick }) => {
   return (
     <div
       className={`card ${card.isFlipped ? "flipped" : ""} ${
@@ -11,3 +11,5 @@ export const Card = ({ card, onClick }) => {
     </div>
   );
 };
+
+export default Card;
