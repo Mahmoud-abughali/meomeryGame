@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "./components/Card";
-import GameHeader from "./components/gameHeader";
+import GameHeader from "./components/GameHeader";
 
 const cardValues = [
   "🍎",
